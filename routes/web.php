@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LembagaController;
+use App\Http\Controllers\FormulirController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,12 +21,6 @@ use App\Http\Controllers\LembagaController;
 Route::get('/', function () {
     return view('welcome');
 });
-Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-
-Route::resources([
-    'roles' => RoleController::class,
-    'users' => UserController::class,
-    'lembaga' => LembagaController::class,
-]);
+Route::resources(['formulir'=>FormulirController::class]);

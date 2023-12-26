@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac85c0d9-69b1-4dfb-b7b5-69d330be9ddd" name="Changes" comment="" />
+    <list default="true" id="ac85c0d9-69b1-4dfb-b7b5-69d330be9ddd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FormulirController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LembagaController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreLembagaRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateFormulirRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreRoleRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUserRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateLembagaRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreFormulirRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateRoleRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Lembaga.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Formulir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_12_26_000518_create_permission_tables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_12_26_000611_create_lembagas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_12_26_092436_create_formulirs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lembaga/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formulir/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lembaga/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formulir/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lembaga/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formulir/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lembaga/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formulir/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +190,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/LARAGON/www/sklh - Copy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -164,6 +199,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LARAGON\www\sklh\resources\views" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -179,7 +219,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703212432856</updated>
       <workItem from="1703212445420" duration="2035000" />
-      <workItem from="1703543042377" duration="7804000" />
+      <workItem from="1703543042377" duration="12564000" />
     </task>
     <servers />
   </component>
