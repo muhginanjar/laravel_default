@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LembagaController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreLembagaRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateFormulirRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreRoleRequest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUserRequest.php" beforeDir="false" />
@@ -22,6 +23,10 @@
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2023_12_26_000518_create_permission_tables.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2023_12_26_000611_create_lembagas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_12_26_092436_create_formulirs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/PermissionSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/RoleSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/SuperAdminSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/lembaga/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/formulir/create.blade.php" afterDir="false" />
@@ -219,7 +224,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703212432856</updated>
       <workItem from="1703212445420" duration="2035000" />
-      <workItem from="1703543042377" duration="12564000" />
+      <workItem from="1703543042377" duration="13704000" />
     </task>
     <servers />
   </component>
